@@ -1,0 +1,122 @@
+* {margin:0; padding:0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+a {text-decoration: none; color: inherit;}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+@media (max-width: 1030px) {
+  .container {
+    margin: 0 15px;
+  }
+}
+
+.btn {
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.fas {margin-right: 15px;}
+
+.danger {
+  color: rgb(201, 0, 0);
+  background-color: rgb(255, 187, 187);
+  padding: 8px;
+  border-radius: 8px 12px;
+}
+
+
+
+
+/*+++++++++++ HEADER /*+++++++++++*/
+header {
+  background-color: black; color: white; padding: 20px 0;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .navbar {
+  display: flex;
+}
+header .container .navbar li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 750px) {
+  header .container {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 45px 0;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+.section-container {
+  margin-top: 50px;
+  height: 65vh;
+  text-align: center;
+}
+
+.section-container hr {
+  max-width: 500px;
+  margin: 15px auto;
+  border: 1px solid black;
+}
+
+
+form {
+  margin: 30px 0;
+}
+
+form input {
+  margin-bottom: 10px;
+  width: 250px;
+  padding: 5px 10px;
+  border: 1px solid grey;
+  border-radius: 8px;
+}
+
+form .form-btn {
+  border: 2px solid black;
+  padding: 8px 10px;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  width: 100px;
+}
+
+form .form-btn:hover {cursor: pointer;}
+
+
+
+.info {margin: 30px 0;}
